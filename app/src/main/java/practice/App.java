@@ -4,8 +4,14 @@
 package practice;
 
 public class App {
+    private String greeting = "What's up!";
+
     public String getGreeting() {
-        return "Hello World!";
+        return greeting;
+    }
+
+    public void setGreeting(String newGreeting) {
+        greeting = newGreeting;
     }
 
     public static void main(String[] args) {
